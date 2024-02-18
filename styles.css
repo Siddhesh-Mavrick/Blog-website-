@@ -1,0 +1,85 @@
+@import url('./utilites.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.subscribe:hover {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    /* transform: scale(1.05); */
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.heading {
+    font-family: "Libre Baskerville", serif;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    grid-template-rows: repeat(4);
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid rgba(128, 128, 128, 0.329);
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    border: 5px solid rgba(128, 128, 128, 0.329);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.word-odd {
+    color: var(--anchor);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.word-even {
+    color: var(--even);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card-more {
+    color: var(--anchor);
+}

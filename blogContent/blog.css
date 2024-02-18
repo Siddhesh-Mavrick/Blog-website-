@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('../utilites.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.two-cols {
+    display: flex;
+    align-items: start;
+    gap: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.subscribe:hover {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    /* transform: scale(1.05); */
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.heading {
+    font-family: "Libre Baskerville", serif;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.main-blog {
+    width: 890px;
+    height: auto;
+}
+
+/* top blog  */
+
+.blog-title {
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 5px;
+}
+
+.anchor {
+    color: var(--anchor);
+}
+
+.blog-date {
+    color: gray;
+}
+
+.blog-date, .blog-date a {
+    font-size: 16px;
+}
+
+.para {
+    margin: 45px auto;
+    font-size: 19px;
+    word-spacing: 2px;
+}
+
+.bord {
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.second-heading, .sub-heading {
+    font-size: 45px;
+}
+
+.head-para{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list {
+    font-size: var(--size);
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+ol li {
+    list-style-type: number;
+}
+
+.bottom-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn {
+    border: 1px solid grey;
+    border-radius: 25px;
+    color: grey;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+}
+
+.btn:hover {
+    background-color: var(--anchor);
+    color: white;
+    border: 1px solid var(--anchor);
+}
+
+.first-btn {
+    border: 1px solid var(--anchor);
+    color: var(--anchor);
+}
+
+/* styling side bar  */
+
+.side-blog {
+    background-color: var(--sidebgc);
+    padding: 25px;
+    width: 420px;
+}
+
+.side-blog div {
+    margin-bottom: 50px;
+}
+
+.archives ul li, .elsewhere ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.side-heading {
+    font-style: italic;
+}
+
+.side-ul {
+    margin: auto;
+}
+
+.side-list {
+    color: var(--anchor);
+}
+
+.side-headings {
+    margin-bottom: 15px;
+}
+
